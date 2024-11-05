@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Visible="false" Text="Dashboard Edit" />
+  <DataSources>
+    <ObjectDataSource Name="DepartmentQueueProcessesView_thisyear" ComponentName="dataSource1">
+      <DataSource Type="DxBlazorReport.Model.DepartmentQueueProcessesView, DxBlazorReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </ObjectDataSource>
+    <ObjectDataSource Name="DepartmentQueueProcessesView_all" ComponentName="dataSource2">
+      <DataSource Type="DxBlazorReport.Model.DepartmentQueueProcessesView, DxBlazorReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </ObjectDataSource>
+  </DataSources>
+  <Items>
+    <Pivot ComponentName="pivotDashboardItem1" Name="Pivot 1" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="DepartmentName" DefaultId="DataItem0" />
+        <Dimension DataMember="Workcenter" DefaultId="DataItem1" />
+        <Dimension DataMember="OperatorName" DefaultId="DataItem2" />
+        <Dimension DataMember="sono" DefaultId="DataItem3" />
+        <Dimension DataMember="opno" DefaultId="DataItem4" />
+        <Dimension DataMember="PartNo" DefaultId="DataItem5" />
+        <Measure DataMember="MinutesSpent" DefaultId="DataItem6">
+          <NumericFormat FormatType="Number" />
+        </Measure>
+      </DataItems>
+      <Columns>
+        <Column DefaultId="DataItem0" />
+        <Column DefaultId="DataItem1" />
+        <Column DefaultId="DataItem2" />
+        <Column DefaultId="DataItem3" />
+        <Column DefaultId="DataItem4" />
+        <Column DefaultId="DataItem5" />
+      </Columns>
+      <Values>
+        <Value DefaultId="DataItem6" />
+      </Values>
+    </Pivot>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="pivotDashboardItem1" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard>
+  <Title Visible="false" Text="Home Page" />
+  <DataSources>
+    <ObjectDataSource Name="DepartmentQueueProcessesView_thisyear" ComponentName="dataSource1">
+      <DataSource Type="DxBlazorReport.Model.DepartmentQueueProcessesView, DxBlazorReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </ObjectDataSource>
+    <ObjectDataSource Name="DepartmentQueueProcessesView_all" ComponentName="dataSource2">
+      <DataSource Type="DxBlazorReport.Model.DepartmentQueueProcessesView, DxBlazorReport, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" />
+    </ObjectDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" ShowCaption="false" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="DepartmentName" DefaultId="DataItem0" />
+        <Dimension DataMember="Workcenter" DefaultId="DataItem1" />
+        <Dimension DataMember="OperatorName" DefaultId="DataItem2" />
+        <Dimension DataMember="sono" DefaultId="DataItem3" />
+        <Dimension DataMember="PartNo" DefaultId="DataItem5" />
+        <Dimension DataMember="opno" DefaultId="DataItem4" />
+        <Measure DataMember="Qty" DefaultId="DataItem6">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Measure DataMember="MinutesSpent" DefaultId="DataItem7">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem3" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem4" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem1" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension DefaultId="DataItem5" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem6" />
+        </GridMeasureColumn>
+        <GridMeasureColumn>
+          <Measure DefaultId="DataItem7" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions />
+    </Grid>
+    <ListBox ComponentName="listBoxDashboardItem1" Name="Departments" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="DepartmentName" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ListBox>
+    <DateFilter ComponentName="dateFilterDashboardItem1" Name="End Date Filter" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="EndTime" Name="End Date" DateTimeGroupInterval="DayMonthYear" DefaultId="DataItem0" />
+      </DataItems>
+      <Dimension DefaultId="DataItem0" />
+    </DateFilter>
+    <DateFilter ComponentName="dateFilterDashboardItem2" Name="Start Date Filter" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="StartTime" Name="Start Time" DateTimeGroupInterval="DayMonthYear" DefaultId="DataItem0" />
+      </DataItems>
+      <Dimension DefaultId="DataItem0" />
+    </DateFilter>
+    <ListBox ComponentName="listBoxDashboardItem2" Name="Workcenters" DataSource="dataSource1">
+      <DataItems>
+        <Dimension DataMember="Workcenter" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ListBox>
+    <ComboBox ComponentName="comboBoxDashboardItem1" Name="Operators" DataSource="dataSource1" EnableSearch="true" ComboBoxType="Checked">
+      <DataItems>
+        <Dimension DataMember="OperatorName" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ComboBox>
+    <ComboBox ComponentName="comboBoxDashboardItem2" Name="Part No" DataSource="dataSource1" EnableSearch="true" ComboBoxType="Checked">
+      <DataItems>
+        <Dimension DataMember="PartNo" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ComboBox>
+    <ComboBox ComponentName="comboBoxDashboardItem3" Name="SoNo" DataSource="dataSource1" EnableSearch="true" ComboBoxType="Checked">
+      <DataItems>
+        <Dimension DataMember="sono" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ComboBox>
+    <ComboBox ComponentName="comboBoxDashboardItem4" Name="OpNo" DataSource="dataSource1" EnableSearch="true" ComboBoxType="Checked">
+      <DataItems>
+        <Dimension DataMember="opno" DefaultId="DataItem0" />
+      </DataItems>
+      <FilterDimensions>
+        <Dimension DefaultId="DataItem0" />
+      </FilterDimensions>
+    </ComboBox>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutGroup>
+        <LayoutGroup Orientation="Vertical" Weight="0.410028246173074">
+          <LayoutItem DashboardItem="listBoxDashboardItem1" Weight="1.2433312647298713" />
+          <LayoutItem DashboardItem="dateFilterDashboardItem2" Weight="0.06643528621345807" />
+          <LayoutItem DashboardItem="dateFilterDashboardItem1" Weight="0.4814713193453062" />
+        </LayoutGroup>
+        <LayoutItem DashboardItem="listBoxDashboardItem2" Weight="0.29017007287515323" />
+        <LayoutGroup Orientation="Vertical" Weight="3.365531115723977">
+          <LayoutGroup Weight="0.41173477882964515">
+            <LayoutItem DashboardItem="comboBoxDashboardItem1" Weight="0.41173477882964515" />
+            <LayoutItem DashboardItem="comboBoxDashboardItem2" Weight="0.41173477882964515" />
+            <LayoutItem DashboardItem="comboBoxDashboardItem3" Weight="0.41173477882964515" />
+            <LayoutItem DashboardItem="comboBoxDashboardItem4" Weight="0.41173477882964515" />
+          </LayoutGroup>
+          <LayoutItem DashboardItem="gridDashboardItem1" Weight="3.365531115723977" />
+        </LayoutGroup>
+      </LayoutGroup>
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>

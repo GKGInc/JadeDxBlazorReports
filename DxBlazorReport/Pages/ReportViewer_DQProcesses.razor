@@ -1,0 +1,84 @@
+@page "/reportdqprocess/"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports.UI
+@using DevExpress.Blazor.Reporting.Models
+@using DevExpress.Blazor
+@using DxBlazorReport.PredefinedReports
+@using Models
+
+
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css" rel="stylesheet" />
+
+@* <div class="cw-880">
+    <EditForm Model="@OrdersModel"
+              OnValidSubmit="@HandleValidSubmit"
+              Context="EditFormContext">
+        <DataAnnotationsValidator />
+        <DxFormLayout CssClass="w-75 parameters-panel-custom">
+            <DxFormLayoutItem Caption="Order Id:" ColSpanMd="4">
+                 <CustomCombobox Model=OrdersModel ParameterModel=ParameterModel /> 
+            </DxFormLayoutItem>
+            <DxFormLayoutItem ColSpanMd="1">
+                <DxButton SubmitFormOnClick="true"
+                          Text="Submit"
+                          Title="Press the key to reload the report with the parameters."
+                          RenderStyle="ButtonRenderStyle.Secondary" />
+            </DxFormLayoutItem>
+            <DxFormLayoutItem ColSpanMd="7">
+                <ValidationSummary />
+            </DxFormLayoutItem>
+        </DxFormLayout>
+    </EditForm>
+</div>
+
+<div style="width: 100%; height: calc(100% - 4rem);">
+    <DxReportViewer @ref="reportViewer"
+                    OnCustomizeParameters="OnCustomizeParameters"
+                    Report="Report" />
+</div> *@
+
+
+
+
+<DxReportViewer @ref="reportViewer" Report="Report" RootCssClasses="w-100 h-100" />
+
+@code {
+    DxReportViewer reportViewer;
+    XtraReport Report = new DepartmentQueueProcessesViewReport();
+
+
+    // OrdersModel OrdersModel = new OrdersModel();
+    // ParameterModel ParameterModel { get; set; }
+
+    // protected override void OnAfterRender(bool firstRender)
+    // {
+    //     if (firstRender)
+    //     {
+    //         var parameterTab = reportViewer.TabPanelModel.Tabs
+    //             .Where(Tab => Tab.ContentModel is ParametersModel)
+    //             .FirstOrDefault();
+    //         parameterTab.Visible = false;
+    //         StateHasChanged();
+    //     }
+    //     base.OnAfterRender(firstRender);
+    // }
+
+    // void HandleValidSubmit()
+    // {
+    //     if (!OrdersModel.OrdersData.Contains(OrdersModel.OrderId))
+    //     {
+    //         OrdersModel.OrdersData.Add(OrdersModel.OrderId);
+    //         OrdersModel.OrdersData.Sort();
+    //     }
+    //     reportViewer.ParametersModel.OnSubmitParameters();
+    // }
+
+    // void OnCustomizeParameters(ParametersModel parameters)
+    // {
+    //     ParameterModel = parameters.VisibleItems
+    //         .Where(param => param.Name == "OrderIdParameter")
+    //         .FirstOrDefault();
+    // }
+}

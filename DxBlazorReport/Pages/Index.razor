@@ -1,0 +1,142 @@
+﻿@page "/"
+@using DevExpress.DashboardBlazor
+@using DevExpress.DashboardWeb
+@using DxBlazorReport.Authentication
+@using DevExpress.DashboardAspNetCore;
+@using DevExpress.DashboardCommon;
+@using DevExpress.Blazor;
+@inject IJSRuntime js
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+@inject UserAccountService userAccountService
+
+        <DxDashboard Endpoint="api/dashboard"
+                     WorkingMode="@workingMode"
+                     DashboardId="@initialDashboard"
+                     style="width: 100%; height: 800px;"
+                     Id="HomePageDashboard">
+            <DxBackendOptions RequestHttpHeaders="@headers"></DxBackendOptions>
+            <DxJSCustomization Identifier="dashboardEvents" OnScriptsLoading="OnDashboardScriptsLoading"></DxJSCustomization>
+        </DxDashboard> 
+        @if (showButtons)
+        {
+            <button class="btn btn-outline-primary" id="refreshDashboard" @onclick="RefreshDashboard">Refresh Dashboard</button>
+        }
+        @if (showButtons && showWorkingModeToggleButton)
+        {
+            <button class="btn btn-outline-primary" id="workingModeSwitcher" @onclick="ChangeWorkingMode">@ButtonText</button>
+        }
+
+@code {
+    // -- =========================================================================
+
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationState { get; set; }
+
+    private DxDashboard dashboardRef;
+    private WorkingMode workingMode { get; set; }
+    private string initialDashboard { get; set; }
+    public Dictionary<string, string> headers = new Dictionary<string, string>();
+    private bool showWorkingModeToggleButton = false;
+    private bool showButtons = true;
+
+    // -- =========================================================================
+
+    protected async override Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+
+        initialDashboard = "HomePageDashboard";
+        workingMode = WorkingMode.Viewer;
+        showButtons = true;
+
+        // var user = (await authenticationState).User;
+        // if (!user.Identity.IsAuthenticated)
+        // {
+        //     //NavigationManager.NavigateTo($"authentication/login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
+        //     //navManager.NavigateTo("/Login", true);
+        //     //navManager.NavigateTo($"authentication/login?returnUrl={Uri.EscapeDataString(navManager.Uri)}");
+        // }
+        // else
+        // {
+
+        // }
+
+        // //AuthenticationState authstate = await authStateProvider.GetAuthenticationStateAsync();
+        // //bool isAuth = authstate.User.Identity.IsAuthenticated;
+        // //if (!isAuth)
+        // //{
+        // //    navManager.NavigateTo("/Login", true);
+        // //}
+
+
+        // var authstate = await authStateProvider.GetAuthenticationStateAsync();
+
+        // var userClaimsPrincipal = authstate.User; // ClaimsPrincipal
+        // var userClaimsPrincipalName = userClaimsPrincipal.Identity.Name;
+
+        // if (userClaimsPrincipalName != null)
+        // {
+        //     var userData = userAccountService.GetUserAccountFromClaims(userClaimsPrincipal);
+
+        //     if (userData != null)
+        //     {
+        //         if (userData.Role == "Administrator")
+        //         {
+        //             showWorkingModeToggleButton = true;
+        //         }
+        //     }
+        //     else
+        //     {
+
+        //     }
+        // }
+    }
+
+    public void Dispose()
+    {
+        showButtons = false;
+    }
+
+    // -- =========================================================================
+
+    public void OnDashboardScriptsLoading(ScriptsLoadingEventArgs e)
+    {
+    }
+
+    private async void RefreshDashboard()
+    {
+        await js.InvokeVoidAsync("refresh");
+    }
+
+    public string GetCapitalizedName(string input)
+    {
+        return input[0].ToString().ToUpper() + input.Substring(1);
+    }
+
+    bool Enabled { get; set; } = false;
+    bool SilentMode { get; set; } = true;
+    bool Sound { get; set; } = true;
+    bool Vibration { get; set; } = false;
+
+    void CheckedChanged(bool value)
+    {
+        workingMode = workingMode == WorkingMode.Designer ? WorkingMode.Viewer : WorkingMode.Designer;
+    }
+
+    public void ChangeWorkingMode()
+    {
+        workingMode = workingMode == WorkingMode.Designer ? WorkingMode.Viewer : WorkingMode.Designer;
+    }
+    public string ButtonText
+    {
+        get
+        {
+            string value = workingMode == WorkingMode.Designer ? "Viewer" : "Designer";
+            string mode = "Switch to " + value;
+            return mode;
+        }
+    }
+
+    // -- =========================================================================
+}

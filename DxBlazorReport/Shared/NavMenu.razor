@@ -1,0 +1,116 @@
+﻿@* <div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">DxBlazorReport</a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reportviewer">
+                <span class="oi oi-plus" aria-hidden="true"></span> Report Viewer (Native)
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reporta">
+                <span class="oi oi-plus" aria-hidden="true"></span> My Report Viewer
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+} *@
+
+<div class="top-row pl-4 navbar navbar-dark" style="padding-left: 10px;">
+    <a class="navbar-brand" href=""><img src="/Images/jadelogo2x.png" asp-append-version="true" width="65" style="padding-right:10px;" />Portal</a>
+    <button class="navbar-toggler" @onclick="ToggleNavMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+</div>
+
+<div class="@NavMenuCssClass" @onclick="ToggleNavMenu">
+    <ul class="nav flex-column">
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Home
+            </NavLink>
+        </li>
+       @*  <AuthorizeView>
+            <Authorized> *@
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="PivotDashboard">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Pivot Dashboard
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="NewDashboard">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>New Dashboard
+            </NavLink>
+        </li>
+        @* <li class="nav-item px-3">
+            <NavLink class="nav-link" href="employeereport">                
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Employee Report
+            </NavLink>
+        </li> *@
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="operatorreport">                
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Operator Report
+            </NavLink>
+        </li>
+        <li class="nav-item px-3">
+            <NavLink class="nav-link" href="workcenterreport">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Workcenter Report
+            </NavLink>
+        </li>
+        @* <li class="nav-item px-3">
+            <NavLink class="nav-link" href="workcenterreportext">
+                <span class="oi oi-list-rich" aria-hidden="true"></span>Workcenter (test) Report
+            </NavLink>
+        </li> *@
+        @* <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reportdqcounts">
+                <span class="oi oi-plus" aria-hidden="true"></span>DQ Counts
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="reportdqprocess">
+                <span class="oi oi-plus" aria-hidden="true"></span>DQ Processes
+            </NavLink>
+        </div> *@
+@* 
+            </Authorized>
+            <NotAuthorized>
+
+            </NotAuthorized>
+        </AuthorizeView> *@
+
+    </ul>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

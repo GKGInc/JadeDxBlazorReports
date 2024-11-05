@@ -1,0 +1,103 @@
+﻿@using DxBlazorReport.Data
+@inject GlobalData globalData
+@inherits LayoutComponentBase
+
+<div class="page">
+    <div class="sidebar">
+        <NavMenu />
+    </div>
+
+    <main>
+        <div class="top-row px-4">
+            @* <a href="https://docs.microsoft.com/aspnet/" target="_blank">About</a> *@
+        </div>
+
+        <article class="content px-4">
+            @Body
+        </article>
+    </main>
+</div>
+@* 
+@using DxBlazorReport.Authentication
+@inherits LayoutComponentBase
+@inject AuthenticationStateProvider authStateProvider
+@inject NavigationManager navManager
+
+<div class="sidebar">
+    <NavMenu />
+</div>
+
+<div class="main">
+    <div class="top-row px-4 auth">
+
+        <AuthorizeView Roles="Administrator,User">
+            <Authorized>
+                <div>Hello, @GetCapitalizedName(@context.User.Identity.Name)!</div>
+                <a @onclick="Logout" href="javascript:void(0)">Logout</a>
+            </Authorized>
+            <NotAuthorized>
+                <a href="/login">Login</a>
+            </NotAuthorized>
+        </AuthorizeView>
+    </div>
+
+    <div class="content px-4">
+        @Body
+    </div>
+</div> *@
+
+@code {
+
+    // -- =========================================================================
+
+    [CascadingParameter]
+    private Task<AuthenticationState> authenticationState { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+        // if (authenticationState != null)
+        // {
+        //     var user = (await authenticationState).User;
+        //     if (!user.Identity.IsAuthenticated)
+        //     {
+        //         //NavigationManager.NavigateTo($"authentication/login?returnUrl={Uri.EscapeDataString(NavigationManager.Uri)}");
+        //         //navManager.NavigateTo("/Login", true);
+        //         //navManager.NavigateTo($"authentication/login?returnUrl={Uri.EscapeDataString(navManager.Uri)}");
+        //     }
+        //     else
+        //     {
+
+        //     }
+
+        //     //AuthenticationState authstate = await authStateProvider.GetAuthenticationStateAsync();
+        //     //bool isAuth = authstate.User.Identity.IsAuthenticated;
+        //     //if (!isAuth)
+        //     //{
+        //     //    //navManager.NavigateTo("/Login", true);
+        //     //}
+        // }
+
+        SqlData sqlData = new SqlData();
+        globalData.departmentList = await sqlData.GetDepartmentList();
+        globalData.workcenterList = await sqlData.GetWorkcenterList();
+        globalData.operatorList = await sqlData.GetOperatorList();
+    }
+
+    // -- =========================================================================
+
+
+    // public string GetCapitalizedName(string input)
+    // {
+    //     return input[0].ToString().ToUpper() + input.Substring(1);
+    // }
+
+    // private async Task Logout()
+    // {
+    //     var customAutStateProvider = (CustomAuthenticationStateProvider)authStateProvider;
+    //     await customAutStateProvider.UpdateAuthenticationState(null);
+    //     navManager.NavigateTo("/Login", true);
+    // }
+
+    // -- =========================================================================
+}

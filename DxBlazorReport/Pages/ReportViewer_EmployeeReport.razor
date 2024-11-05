@@ -1,0 +1,19 @@
+@page "/employeereport/"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports.UI
+@using DevExpress.Blazor.Reporting.Models
+@using DevExpress.Blazor
+@using DxBlazorReport.PredefinedReports
+@using Models
+
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css" rel="stylesheet" />
+
+<DxReportViewer @ref="reportViewer" Report="Report" RootCssClasses="w-100 h-100" />
+
+@code {
+    DxReportViewer reportViewer;
+    XtraReport Report = new EmployeeReport();
+
+}
