@@ -1186,7 +1186,7 @@
             this.xrLabel3.ForeColor = System.Drawing.Color.Black;
             this.xrLabel3.LocationFloat = new DevExpress.Utils.PointFloat(693.3707F, 3.39994F);
             this.xrLabel3.Name = "xrLabel3";
-            this.xrLabel3.SizeF = new System.Drawing.SizeF(56.62927F, 14.88F);
+            this.xrLabel3.SizeF = new System.Drawing.SizeF(55.89F, 14.88F);
             this.xrLabel3.StyleName = "TotalData1";
             this.xrLabel3.StylePriority.UseForeColor = false;
             this.xrLabel3.StylePriority.UseTextAlignment = false;
@@ -1226,7 +1226,7 @@
             this.label4.CanGrow = false;
             this.label4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[^.StartDate]=[StartDate] AND [^.OperatorName]=[OperatorName] AND [^.Metri" +
-                    "cType]=\'Job\' AND [Count] > 0],sumSum(Iif([Count]> 0, [Count], 0)),\'\')")});
+                    "cType]=\'Job\' AND [Count] > 0],sumRunningSum(Iif([Count]> 0, [Count], 0)),\'\')")});
             this.label4.ForeColor = System.Drawing.Color.Black;
             this.label4.LocationFloat = new DevExpress.Utils.PointFloat(553.2285F, 3.40004F);
             this.label4.Name = "label4";
@@ -1280,7 +1280,7 @@
             // 
             this.label10.CanGrow = false;
             this.label10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRunningSum(Iif([Count]> 0, [Count], 0))")});
             this.label10.ForeColor = System.Drawing.Color.Black;
             this.label10.LocationFloat = new DevExpress.Utils.PointFloat(553.1856F, 3.400033F);
             this.label10.Name = "label10";
@@ -1332,7 +1332,7 @@
             // 
             this.label13.CanGrow = false;
             this.label13.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRunningSum(Iif([Count]> 0, [Count], 0))")});
             this.label13.ForeColor = System.Drawing.Color.Black;
             this.label13.LocationFloat = new DevExpress.Utils.PointFloat(553.1856F, 11.50001F);
             this.label13.Name = "label13";

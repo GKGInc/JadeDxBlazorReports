@@ -1149,9 +1149,9 @@
             this.xrLabel1.CanGrow = false;
             this.xrLabel1.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "GetDateFromSeconds(sumSum([UptimeMetric]))")});
-            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(533.6628F, 3.40003F);
+            this.xrLabel1.LocationFloat = new DevExpress.Utils.PointFloat(563.0949F, 3.400033F);
             this.xrLabel1.Name = "xrLabel1";
-            this.xrLabel1.SizeF = new System.Drawing.SizeF(102.6516F, 14.88444F);
+            this.xrLabel1.SizeF = new System.Drawing.SizeF(88.68604F, 14.88444F);
             this.xrLabel1.StyleName = "TotalData1";
             this.xrLabel1.StylePriority.UseTextAlignment = false;
             xrSummary1.Running = DevExpress.XtraReports.UI.SummaryRunning.Group;
@@ -1162,13 +1162,15 @@
             // 
             // xrLabel5
             // 
+            this.xrLabel5.AutoWidth = true;
             this.xrLabel5.CanGrow = false;
+            this.xrLabel5.CanShrink = true;
             this.xrLabel5.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "TextAlignment", "\'MiddleLeft\'"),
             new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "GetDateFromSeconds(sumAvg([AvgMetric]))")});
-            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(636.3143F, 3.40003F);
+            this.xrLabel5.LocationFloat = new DevExpress.Utils.PointFloat(694.1055F, 3.400033F);
             this.xrLabel5.Name = "xrLabel5";
-            this.xrLabel5.SizeF = new System.Drawing.SizeF(113.6857F, 14.88444F);
+            this.xrLabel5.SizeF = new System.Drawing.SizeF(55.89459F, 14.88444F);
             this.xrLabel5.StyleName = "TotalData1";
             this.xrLabel5.StylePriority.UseTextAlignment = false;
             xrSummary2.Running = DevExpress.XtraReports.UI.SummaryRunning.Group;
@@ -1178,7 +1180,7 @@
             // 
             // label3
             // 
-            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(405.7773F, 3.400008F);
+            this.label3.LocationFloat = new DevExpress.Utils.PointFloat(437.047F, 3.400008F);
             this.label3.Name = "label3";
             this.label3.SizeF = new System.Drawing.SizeF(44.36987F, 14.88444F);
             this.label3.StyleName = "TotalCaption1";
@@ -1188,8 +1190,8 @@
             // 
             this.label4.CanGrow = false;
             this.label4.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
-            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(451.9846F, 3.40003F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumRunningSum([Count]),\'\')")});
+            this.label4.LocationFloat = new DevExpress.Utils.PointFloat(481.4169F, 3.40003F);
             this.label4.Name = "label4";
             this.label4.SizeF = new System.Drawing.SizeF(81.67795F, 14.88444F);
             this.label4.StyleName = "TotalData1";
@@ -1201,7 +1203,7 @@
             // 
             // label5
             // 
-            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.40003F);
+            this.label5.LocationFloat = new DevExpress.Utils.PointFloat(31.26971F, 3.40003F);
             this.label5.Name = "label5";
             this.label5.SizeF = new System.Drawing.SizeF(405.7773F, 14.88444F);
             this.label5.StyleName = "TotalCaption1";
@@ -1230,7 +1232,7 @@
             // 
             // label6
             // 
-            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(405.7773F, 3.400008F);
+            this.label6.LocationFloat = new DevExpress.Utils.PointFloat(437.0471F, 3.400008F);
             this.label6.Name = "label6";
             this.label6.SizeF = new System.Drawing.SizeF(44.36981F, 14.88444F);
             this.label6.StyleName = "TotalCaption1";
@@ -1240,8 +1242,8 @@
             // 
             this.label7.CanGrow = false;
             this.label7.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
-            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(451.9846F, 3.400025F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRunningSum(Iif([Count]> 0, [Count], 0))")});
+            this.label7.LocationFloat = new DevExpress.Utils.PointFloat(481.4169F, 3.400025F);
             this.label7.Name = "label7";
             this.label7.SizeF = new System.Drawing.SizeF(81.67795F, 14.88444F);
             this.label7.StyleName = "TotalData1";
@@ -1253,7 +1255,7 @@
             // 
             // label8
             // 
-            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.400025F);
+            this.label8.LocationFloat = new DevExpress.Utils.PointFloat(31.26971F, 3.400025F);
             this.label8.Name = "label8";
             this.label8.SizeF = new System.Drawing.SizeF(405.7773F, 14.88444F);
             this.label8.StyleName = "TotalCaption1";
@@ -1280,7 +1282,7 @@
             // 
             // label15
             // 
-            this.label15.LocationFloat = new DevExpress.Utils.PointFloat(405.7773F, 3F);
+            this.label15.LocationFloat = new DevExpress.Utils.PointFloat(437.0471F, 3F);
             this.label15.Name = "label15";
             this.label15.SizeF = new System.Drawing.SizeF(44.36978F, 14.88444F);
             this.label15.StyleName = "GrandTotalCaption1";
@@ -1290,8 +1292,8 @@
             // 
             this.label16.CanGrow = false;
             this.label16.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
-            this.label16.LocationFloat = new DevExpress.Utils.PointFloat(451.9846F, 3.000012F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRunningSum(Iif([Count]> 0, [Count], 0))")});
+            this.label16.LocationFloat = new DevExpress.Utils.PointFloat(481.4169F, 3.000012F);
             this.label16.Name = "label16";
             this.label16.SizeF = new System.Drawing.SizeF(81.67783F, 14.88444F);
             this.label16.StyleName = "GrandTotalData1";
@@ -1480,7 +1482,7 @@
             // 
             // label11
             // 
-            this.label11.LocationFloat = new DevExpress.Utils.PointFloat(0F, 3.400025F);
+            this.label11.LocationFloat = new DevExpress.Utils.PointFloat(31.26971F, 3.400025F);
             this.label11.Name = "label11";
             this.label11.SizeF = new System.Drawing.SizeF(405.7773F, 14.88445F);
             this.label11.StyleName = "TotalCaption1";
@@ -1492,8 +1494,8 @@
             // 
             this.label10.CanGrow = false;
             this.label10.ExpressionBindings.AddRange(new DevExpress.XtraReports.UI.ExpressionBinding[] {
-            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "Iif([][[Count]>0],sumSum([Count]),\'\')")});
-            this.label10.LocationFloat = new DevExpress.Utils.PointFloat(451.9846F, 3.400025F);
+            new DevExpress.XtraReports.UI.ExpressionBinding("BeforePrint", "Text", "sumRunningSum(Iif([Count]> 0, [Count], 0))")});
+            this.label10.LocationFloat = new DevExpress.Utils.PointFloat(481.4169F, 3.400025F);
             this.label10.Name = "label10";
             this.label10.SizeF = new System.Drawing.SizeF(81.67783F, 14.88444F);
             this.label10.StyleName = "TotalData1";
@@ -1505,7 +1507,7 @@
             // 
             // label9
             // 
-            this.label9.LocationFloat = new DevExpress.Utils.PointFloat(405.7773F, 3.400008F);
+            this.label9.LocationFloat = new DevExpress.Utils.PointFloat(437.0471F, 3.400008F);
             this.label9.Name = "label9";
             this.label9.SizeF = new System.Drawing.SizeF(44.36981F, 14.88444F);
             this.label9.StyleName = "TotalCaption1";

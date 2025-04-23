@@ -30,9 +30,11 @@ namespace DxBlazorReport.Data
 
             var ints = values.ToArray();
             TimeSpan time = TimeSpan.FromMilliseconds(ints[0]);
-            DateTime dateTime = DateTime.Today.Add(time);
-            string displayTime = dateTime.ToString("hh:mm:ss");
-            string str = time.ToString(@"hh\:mm\:ss");
+            //DateTime dateTime = DateTime.Today.Add(time);
+            //string displayTime = dateTime.ToString("hh:mm:ss");
+            //string str = time.ToString(@"hh\:mm\:ss");
+
+            string str = ((int)time.TotalHours).ToString("00") + ":" + time.Minutes.ToString("00") + ":" + time.Seconds.ToString("00");
 
             return str;
             //return dateTime;
