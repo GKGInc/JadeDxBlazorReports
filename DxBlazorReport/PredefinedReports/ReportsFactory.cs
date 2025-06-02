@@ -8,7 +8,8 @@ namespace DxBlazorReport.PredefinedReports
         {
             ["DepartmentQueueCountRecordViewReport"] = () => new DepartmentQueueCountRecordViewReport(),
             ["DepartmentQueueProcessesViewReport"] = () => new DepartmentQueueProcessesViewReport(),
-            ["EmployeeReport"] = () => new EmployeeReport()
+            ["EmployeeReport"] = () => new EmployeeReport(),
+            ["CostReport"] = () => new CostReport()
         };
     }
 }
