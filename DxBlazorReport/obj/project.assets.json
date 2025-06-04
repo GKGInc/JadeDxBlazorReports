@@ -6664,8 +6664,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Helder\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages": {},
+    "C:\\Users\\isegu\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages": {},
     "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages": {},
@@ -6676,14 +6675,13 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
+      "projectUniqueName": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
       "projectName": "DxBlazorReport",
-      "projectPath": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
-      "packagesPath": "C:\\Users\\Helder\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\obj\\",
+      "projectPath": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
+      "packagesPath": "C:\\Users\\isegu\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\DevExpress 20.2\\Components\\Offline Packages",
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages",
         "C:\\Program Files\\DevExpress 23.2\\Components\\Offline Packages",
@@ -6692,9 +6690,7 @@
         "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Helder\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.2.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.2.config",
+        "C:\\Users\\isegu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.2.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.2.config",
@@ -6708,11 +6704,12 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\DevExpress 21.2\\Components\\System\\Components\\Packages": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\DevExpress 22.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 23.2\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://nuget.devexpress.com/NAcoCN7PQgx1YIzK3adRfkK93UuWuLjmzARAD8P2WA3UNzagym/api": {}
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {

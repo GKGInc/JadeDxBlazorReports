@@ -1,54 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\",
+  "WorkspaceRootPath": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\data\\getdatefrommilliseconds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\data\\getdatefrommilliseconds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\operatorreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\operatorreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
       "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\data\\getdatefromseconds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\data\\getdatefromseconds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\operatorreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\operatorreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\workcenterreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\workcenterreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\pages\\reportviewer_operatorreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\pages\\reportviewer_operatorreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\operatorreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\operatorreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}",
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}",
       "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\workcenterreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\users\\helder\\documents\\visual studio 2015\\projects\\jade\\jadedxblazorreports\\dxblazorreport\\dxblazorreport.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\dxblazorreport.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\dxblazorreport.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\data\\sqldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|C:\\projects\\vsprojects\\JadeDxBlazorReports\\dxblazorreport\\data\\testreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\data\\testreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,29 +38,30 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 4,
               "Title": "DxBlazorReport",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
               "RelativeDocumentMoniker": "DxBlazorReport\\DxBlazorReport.csproj",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\DxBlazorReport.csproj",
               "RelativeToolTip": "DxBlazorReport\\DxBlazorReport.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2024-10-29T17:48:24.407Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SqlData.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\SqlData.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Data\\SqlData.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\Data\\SqlData.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\SqlData.cs",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Data\\SqlData.cs",
               "RelativeToolTip": "DxBlazorReport\\Data\\SqlData.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAhwC4AAAAJAAAA",
+              "ViewState": "AQIAADMAAAAAAAAAAAAowAAAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T20:48:31.667Z",
               "IsPinned": true,
@@ -88,112 +69,50 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "WorkcenterReport.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
-              "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
-              "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
+              "DocumentIndex": 1,
+              "Title": "OperatorReport.Designer.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
+              "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
+              "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-19T18:02:14.427Z",
+              "WhenOpened": "2025-05-28T15:05:39.07Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "TestReport.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Data\\TestReport.cs",
+              "RelativeDocumentMoniker": "DxBlazorReport\\Data\\TestReport.cs",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Data\\TestReport.cs",
+              "RelativeToolTip": "DxBlazorReport\\Data\\TestReport.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:23:17.373Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\appsettings.json",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\appsettings.json",
               "RelativeDocumentMoniker": "DxBlazorReport\\appsettings.json",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\appsettings.json",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\appsettings.json",
               "RelativeToolTip": "DxBlazorReport\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-05T14:46:45.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetDateFromSeconds.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\GetDateFromSeconds.cs",
-              "RelativeDocumentMoniker": "DxBlazorReport\\Data\\GetDateFromSeconds.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\GetDateFromSeconds.cs",
-              "RelativeToolTip": "DxBlazorReport\\Data\\GetDateFromSeconds.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAA9wCYAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-04T19:53:26.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GetDateFromMilliSeconds.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
-              "RelativeDocumentMoniker": "DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
-              "RelativeToolTip": "DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAwwB4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-03T23:12:33.496Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ReportViewer_OperatorReport.razor",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_OperatorReport.razor",
-              "RelativeDocumentMoniker": "DxBlazorReport\\Pages\\ReportViewer_OperatorReport.razor",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_OperatorReport.razor",
-              "RelativeToolTip": "DxBlazorReport\\Pages\\ReportViewer_OperatorReport.razor",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAQwC4AAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T14:34:28.672Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "OperatorReport.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "ViewState": "AQIAAEAAAAAAAAAAAAAIwEcAAAAYAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T13:10:03.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "OperatorReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\OperatorReport.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.cs [Design]",
-              "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\OperatorReport.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-28T16:40:29.87Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ReportViewer_WorkcenterReport.razor",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
-              "RelativeDocumentMoniker": "DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
-              "RelativeToolTip": "DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAACYAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-01T14:34:48.906Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "WorkcenterReport.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs [Design]",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs [Design]",
               "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-28T16:40:49.047Z",
@@ -201,15 +120,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "WorkcenterReport.cs",
-              "DocumentMoniker": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
-              "ToolTip": "C:\\Users\\Helder\\Documents\\Visual Studio 2015\\Projects\\Jade\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
               "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAAwwBgAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T14:05:35.629Z"
+              "WhenOpened": "2024-10-29T14:05:35.629Z",
+              "EditorCaption": ""
             }
           ]
         }
