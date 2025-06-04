@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\costingreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\costingreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\costingreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\costingreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\pages\\reportviewer_costingreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\pages\\reportviewer_costingreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\costingreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\costingreport.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form"
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\reportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\reportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\pages\\reportviewer_workcenterreport.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\workcenterreport1.cs||{95027D70-C6B4-4736-8A48-AD3582187321}|Form",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\shared\\navmenu.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\reportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|solutionrelative:dxblazorreport\\predefinedreports\\reportsfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{19BAAA67-8875-4A53-BF09-CA830C3141E3}|DxBlazorReport\\DxBlazorReport.csproj|c:\\projects\\vsprojects\\jadedxblazorreports\\dxblazorreport\\predefinedreports\\workcenterreport.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -54,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -63,6 +67,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "CostingReport.Designer.cs",
+              "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\CostingReport.Designer.cs",
+              "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\CostingReport.Designer.cs",
+              "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\CostingReport.Designer.cs",
+              "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\CostingReport.Designer.cs",
+              "ViewState": "AQIAAGcDAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T14:32:46.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ReportViewer_CostingReport.razor",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_CostingReport.razor",
               "RelativeDocumentMoniker": "DxBlazorReport\\Pages\\ReportViewer_CostingReport.razor",
@@ -75,7 +92,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "WorkcenterReport1.cs [Design]",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport1.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport1.cs",
@@ -87,7 +104,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "NavMenu.razor",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Shared\\NavMenu.razor",
               "RelativeDocumentMoniker": "DxBlazorReport\\Shared\\NavMenu.razor",
@@ -100,7 +117,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "ReportViewer_WorkcenterReport.razor",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
               "RelativeDocumentMoniker": "DxBlazorReport\\Pages\\ReportViewer_WorkcenterReport.razor",
@@ -113,7 +130,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "CostingReport.cs [Design]",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\CostingReport.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\CostingReport.cs",
@@ -125,20 +142,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "ReportsFactory.cs",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\ReportsFactory.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\ReportsFactory.cs",
               "ToolTip": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\ReportsFactory.cs",
               "RelativeToolTip": "DxBlazorReport\\PredefinedReports\\ReportsFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-04T12:52:47.139Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WorkcenterReport.Designer.cs",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.Designer.cs",
@@ -151,7 +168,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "GetDateFromMilliSeconds.cs",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\Data\\GetDateFromMilliSeconds.cs",
@@ -164,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\appsettings.json",
               "RelativeDocumentMoniker": "DxBlazorReport\\appsettings.json",
@@ -177,7 +194,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "WorkcenterReport.cs",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\WorkcenterReport.cs",
@@ -190,7 +207,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "OperatorReport.Designer.cs",
               "DocumentMoniker": "C:\\projects\\vsprojects\\JadeDxBlazorReports\\DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
               "RelativeDocumentMoniker": "DxBlazorReport\\PredefinedReports\\OperatorReport.Designer.cs",
