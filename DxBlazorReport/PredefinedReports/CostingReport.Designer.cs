@@ -177,9 +177,9 @@
             this.GrandTotalBackground1 = new DevExpress.XtraReports.UI.XRControlStyle();
             this.PageInfo = new DevExpress.XtraReports.UI.XRControlStyle();
             this.PartNo = new DevExpress.XtraReports.Parameters.Parameter();
-            this.Workno = new DevExpress.XtraReports.Parameters.Parameter();
-            this.DateFrom = new DevExpress.XtraReports.Parameters.Parameter();
-            this.DateTo = new DevExpress.XtraReports.Parameters.Parameter();
+            this.WorkOrderNumber = new DevExpress.XtraReports.Parameters.Parameter();
+            this.FromDate = new DevExpress.XtraReports.Parameters.Parameter();
+            this.ToDate = new DevExpress.XtraReports.Parameters.Parameter();
             ((System.ComponentModel.ISupportInitialize)(this.table1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.table3)).BeginInit();
@@ -187,6 +187,7 @@
             // 
             // TopMargin
             // 
+            this.TopMargin.HeightF = 33.33333F;
             this.TopMargin.Name = "TopMargin";
             // 
             // BottomMargin
@@ -1498,27 +1499,27 @@
             this.PartNo.Description = "Part Number";
             this.PartNo.Name = "PartNo";
             // 
-            // Workno
+            // WorkOrderNumber
             // 
-            this.Workno.AllowNull = true;
-            this.Workno.Description = "Work Order Number";
-            this.Workno.Name = "Workno";
+            this.WorkOrderNumber.AllowNull = true;
+            this.WorkOrderNumber.Description = "Work Order Number";
+            this.WorkOrderNumber.Name = "WorkOrderNumber";
             // 
-            // DateFrom
+            // FromDate
             // 
-            this.DateFrom.AllowNull = true;
-            this.DateFrom.Description = "Date to Start";
-            this.DateFrom.Name = "DateFrom";
-            this.DateFrom.Type = typeof(global::System.DateTime);
-            this.DateFrom.ValueInfo = "2025-06-04";
+            this.FromDate.AllowNull = true;
+            this.FromDate.Description = "Date to Start";
+            this.FromDate.Name = "FromDate";
+            this.FromDate.Type = typeof(global::System.DateTime);
+            this.FromDate.ValueInfo = "2025-06-04";
             // 
-            // DateTo
+            // ToDate
             // 
-            this.DateTo.AllowNull = true;
-            this.DateTo.Description = "Date Ends";
-            this.DateTo.Name = "DateTo";
-            this.DateTo.Type = typeof(global::System.DateTime);
-            this.DateTo.ValueInfo = "2025-06-04";
+            this.ToDate.AllowNull = true;
+            this.ToDate.Description = "Date Ends";
+            this.ToDate.Name = "ToDate";
+            this.ToDate.Type = typeof(global::System.DateTime);
+            this.ToDate.ValueInfo = "2025-06-04";
             // 
             // CostingReport
             // 
@@ -1536,21 +1537,21 @@
             this.sqlDataSource1});
             this.DataMember = "GetJobCostReport";
             this.DataSource = this.sqlDataSource1;
-            this.FilterString = "[partno] = ?PartNo";
             this.Font = new DevExpress.Drawing.DXFont("Arial", 9.75F);
             this.Landscape = true;
+            this.Margins = new DevExpress.Drawing.DXMargins(100F, 100F, 33.33333F, 100F);
             this.PageHeight = 850;
             this.PageWidth = 1100;
             this.ParameterPanelLayoutItems.AddRange(new DevExpress.XtraReports.Parameters.ParameterPanelLayoutItem[] {
             new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.PartNo, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
-            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.Workno, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
-            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.DateFrom, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
-            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.DateTo, DevExpress.XtraReports.Parameters.Orientation.Horizontal)});
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.WorkOrderNumber, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.FromDate, DevExpress.XtraReports.Parameters.Orientation.Horizontal),
+            new DevExpress.XtraReports.Parameters.ParameterLayoutItem(this.ToDate, DevExpress.XtraReports.Parameters.Orientation.Horizontal)});
             this.Parameters.AddRange(new DevExpress.XtraReports.Parameters.Parameter[] {
             this.PartNo,
-            this.Workno,
-            this.DateFrom,
-            this.DateTo});
+            this.WorkOrderNumber,
+            this.FromDate,
+            this.ToDate});
             this.StyleSheet.AddRange(new DevExpress.XtraReports.UI.XRControlStyle[] {
             this.Title,
             this.GroupCaption1,
@@ -1696,8 +1697,8 @@
         private DevExpress.XtraReports.UI.XRControlStyle GrandTotalBackground1;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
         private DevExpress.XtraReports.Parameters.Parameter PartNo;
-        private DevExpress.XtraReports.Parameters.Parameter Workno;
-        private DevExpress.XtraReports.Parameters.Parameter DateFrom;
-        private DevExpress.XtraReports.Parameters.Parameter DateTo;
+        private DevExpress.XtraReports.Parameters.Parameter WorkOrderNumber;
+        private DevExpress.XtraReports.Parameters.Parameter FromDate;
+        private DevExpress.XtraReports.Parameters.Parameter ToDate;
     }
 }
