@@ -7,9 +7,6 @@
     <WebStackScaffolding_ViewDialogWidth>650</WebStackScaffolding_ViewDialogWidth>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Update="PredefinedReports\CostReport.cs">
-      <SubType>XtraReport</SubType>
-    </Compile>
     <Compile Update="PredefinedReports\DepartmentQueueCountRecordViewReport.cs">
       <SubType>XtraReport</SubType>
     </Compile>
