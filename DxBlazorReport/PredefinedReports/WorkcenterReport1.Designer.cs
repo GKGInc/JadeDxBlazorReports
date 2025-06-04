@@ -1091,7 +1091,7 @@
             // 
             this.partNo.Name = "partNo";
             // 
-            // WorkcenterReport
+            // WorkcenterReport1
             // 
             this.Bands.AddRange(new DevExpress.XtraReports.UI.Band[] {
             this.TopMargin,

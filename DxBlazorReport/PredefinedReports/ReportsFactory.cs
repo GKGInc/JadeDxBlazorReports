@@ -1,4 +1,4 @@
-﻿using DevExpress.XtraReports.UI;
+using DevExpress.XtraReports.UI;
 
 namespace DxBlazorReport.PredefinedReports
 {
@@ -9,7 +9,7 @@ namespace DxBlazorReport.PredefinedReports
             ["DepartmentQueueCountRecordViewReport"] = () => new DepartmentQueueCountRecordViewReport(),
             ["DepartmentQueueProcessesViewReport"] = () => new DepartmentQueueProcessesViewReport(),
             ["EmployeeReport"] = () => new EmployeeReport(),
-            ["CostReport"] = () => new CostReport()
-        };
+            ["CostingReport"] = () => new CostingReport()
+           };
     }
 }

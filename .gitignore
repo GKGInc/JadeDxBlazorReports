@@ -364,3 +364,6 @@ FodyWeavers.xsd
 
 AppLife/Updates
 CTCEnterprise - (Shares).lnk
+
+DxBlazorReport/bin/
+DxBlazorReport/obj/

@@ -1,4 +1,4 @@
-@page "/workcenterreport/"
+@page "/costingreport/"
 
 @using DevExpress.Blazor.Reporting
 @using DevExpress.XtraReports.Expressions
@@ -22,7 +22,7 @@
 
 @code {
     DxReportViewer reportViewer;
-    XtraReport Report = new WorkcenterReport();
+    XtraReport Report = new CostingReport();
 
     protected async override Task OnInitializedAsync()
     {
@@ -32,21 +32,6 @@
         CustomFunctions.Register(new GetDateFromMilliSeconds());
         DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(SqlData));
 
-        List<string> deptList = new List<string>();
-        List<string> wcList = new List<string>();
-
-        if (globalData.departmentList == null || globalData.workcenterList == null)
-        {
-            SqlData sqlData = new SqlData();
-            if (globalData.departmentList == null)
-                globalData.departmentList = await sqlData.GetDepartmentList();
-            if (globalData.workcenterList == null)
-                globalData.workcenterList = await sqlData.GetWorkcenterList();
-        }
-
-        deptList = globalData.departmentList;
-        wcList = globalData.workcenterList;
-
-        Report = new WorkcenterReport(deptList, wcList);
+        Report = new CostingReport();
     }
 }
