@@ -1,0 +1,52 @@
+@page "/workcenterreport/"
+
+@using DevExpress.Blazor.Reporting
+@using DevExpress.XtraReports.Expressions
+@using DevExpress.XtraReports.UI
+@using DevExpress.Blazor.Reporting.Models
+@using DevExpress.Blazor
+@using DxBlazorReport.Code
+@using DxBlazorReport.Data
+@using DxBlazorReport.PredefinedReports
+@using Models
+@using System.Data
+@inject GlobalData globalData
+
+@inject IJSRuntime js
+@using Microsoft.EntityFrameworkCore
+
+<link href="_content/DevExpress.Blazor.Themes/blazing-berry.bs5.css" rel="stylesheet" />
+<link href="_content/DevExpress.Blazor.Reporting.Viewer/css/dx-blazor-reporting-components.bs5.css" rel="stylesheet" />
+
+<DxReportViewer @ref="reportViewer" Report="Report" RootCssClasses="w-100 h-100" />
+
+@code {
+    DxReportViewer reportViewer;
+    XtraReport Report = new WorkcenterReport();
+
+    protected async override Task OnInitializedAsync()
+    {
+        base.OnInitialized();
+
+        CustomFunctions.Register(new GetDateFromSeconds());
+        CustomFunctions.Register(new GetDateFromMilliSeconds());
+        DevExpress.Utils.DeserializationSettings.RegisterTrustedClass(typeof(SqlData));
+
+        List<string> deptList = new List<string>();
+        List<string> wcList = new List<string>();
+
+        if (globalData.departmentList == null || globalData.workcenterList == null)
+        {
+            SqlData sqlData = new SqlData();
+            if (globalData.departmentList == null)
+                globalData.departmentList = await sqlData.GetDepartmentList();
+            if (globalData.workcenterList == null)
+                globalData.workcenterList = await sqlData.GetWorkcenterList();
+        }
+
+        deptList = globalData.departmentList;
+        wcList = globalData.workcenterList;
+
+        Report = new WorkcenterReport(deptList, wcList);
+    }
+}
