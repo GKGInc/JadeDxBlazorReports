@@ -1,5 +1,9 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 namespace DxBlazorReport.PredefinedReports
+=======
+﻿namespace DxBlazorReport.PredefinedReports
+>>>>>>> Stashed changes
 =======
 ﻿namespace DxBlazorReport.PredefinedReports
 >>>>>>> Stashed changes
@@ -12,7 +16,11 @@ namespace DxBlazorReport.PredefinedReports
         private System.ComponentModel.IContainer components = null;
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         /// <summary>
+=======
+        /// <summary> 
+>>>>>>> Stashed changes
 =======
         /// <summary> 
 >>>>>>> Stashed changes
@@ -38,10 +46,13 @@ namespace DxBlazorReport.PredefinedReports
         {
             this.components = new System.ComponentModel.Container();
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         }
 
         #endregion
 =======
+=======
+>>>>>>> Stashed changes
             DevExpress.XtraReports.UI.XRSummary xrSummary1 = new DevExpress.XtraReports.UI.XRSummary();
             DevExpress.XtraReports.UI.XRSummary xrSummary2 = new DevExpress.XtraReports.UI.XRSummary();
             DevExpress.XtraReports.UI.XRSummary xrSummary3 = new DevExpress.XtraReports.UI.XRSummary();
@@ -1173,6 +1184,9 @@ namespace DxBlazorReport.PredefinedReports
         private DevExpress.XtraReports.UI.XRControlStyle GrandTotalData1;
         private DevExpress.XtraReports.UI.XRControlStyle GrandTotalBackground1;
         private DevExpress.XtraReports.UI.XRControlStyle PageInfo;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

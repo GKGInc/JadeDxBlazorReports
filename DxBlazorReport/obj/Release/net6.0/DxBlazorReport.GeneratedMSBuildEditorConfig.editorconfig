@@ -38,10 +38,13 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGl2b3REYXNoYm9hcmQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+<<<<<<< Updated upstream
 [C:/projects/vsprojects/JadeDxBlazorReports/DxBlazorReport/Pages/ReportViewer_CostReport.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0Vmlld2VyX0Nvc3RSZXBvcnQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+=======
+>>>>>>> Stashed changes
 [C:/projects/vsprojects/JadeDxBlazorReports/DxBlazorReport/Pages/ReportViewer_DQCounts.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVwb3J0Vmlld2VyX0RRQ291bnRzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

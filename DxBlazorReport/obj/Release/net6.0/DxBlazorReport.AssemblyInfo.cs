@@ -16,7 +16,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< Updated upstream
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5748a08162495397eaf24a5f274208b0a4743eea")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+963d84c7d58c2bdc5340f5185cd3a78b4f8d0722")]
+>>>>>>> Stashed changes
 [assembly: System.Reflection.AssemblyProductAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
