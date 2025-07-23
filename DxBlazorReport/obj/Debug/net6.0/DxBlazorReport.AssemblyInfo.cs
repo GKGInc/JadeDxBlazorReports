@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ff89378e6b34196a130b134c556e070979637441")]
 [assembly: System.Reflection.AssemblyProductAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DxBlazorReport")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
