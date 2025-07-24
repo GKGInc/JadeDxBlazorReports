@@ -23,12 +23,20 @@ namespace DxBlazorReport.PredefinedReports
         {
             this.Detail.SortFields.Clear();
 
-            string sortField = this.Parameters["SortBy"].Value != null
-                ? this.Parameters["SortBy"].Value.ToString()
+            //string sortField = this.Parameters["SortBy"].Value != null
+            //    ? this.Parameters["SortBy"].Value.ToString()
+            //    : "partno";
+
+            //string direction = this.Parameters["SortDirection"].Value != null
+            //    ? this.Parameters["SortDirection"].Value.ToString()
+            //    : "Ascending";
+
+            string sortField = this.Parameters["sortBy"].Value != null
+                ? this.Parameters["sortBy"].Value.ToString()
                 : "partno";
 
-            string direction = this.Parameters["SortDirection"].Value != null
-                ? this.Parameters["SortDirection"].Value.ToString()
+            string direction = this.Parameters["sortDirection"].Value != null
+                ? this.Parameters["sortDirection"].Value.ToString()
                 : "Ascending";
 
             DevExpress.XtraReports.UI.XRColumnSortOrder sortOrder = XRColumnSortOrder.Ascending;

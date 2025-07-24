@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\projects\vsprojects\JadeDxBlazorReports\DxBlazorReport\bin\Debug\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2025-06-11T15:41:45.9134405Z;True|2024-11-19T14:02:31.6162285-05:00;True|2024-11-19T13:46:57.9253777-05:00;True|2024-11-19T13:42:06.4132813-05:00;True|2024-10-31T18:39:13.3573699-04:00;True|2024-08-21T11:22:55.4836869-04:00;True|2024-08-21T11:17:32.0879355-04:00;True|2024-08-21T11:16:24.5242767-04:00;True|2024-08-21T11:01:39.1809599-04:00;True|2024-08-21T10:50:31.1105694-04:00;True|2024-08-21T10:26:47.0244950-04:00;</History>
+    <_PublishTargetUrl>C:\Users\Helder\Documents\Visual Studio 2015\Projects\Jade\JadeDxBlazorReports\DxBlazorReport\bin\Debug\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2024-08-21T15:22:55.4836869Z;True|2024-08-21T11:17:32.0879355-04:00;True|2024-08-21T11:16:24.5242767-04:00;True|2024-08-21T11:01:39.1809599-04:00;True|2024-08-21T10:50:31.1105694-04:00;True|2024-08-21T10:26:47.0244950-04:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

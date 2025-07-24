@@ -7,7 +7,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
     <TimeStampOfAssociatedLegacyPublishXmlFile />
     <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAr+l2i6qvUEO/6jZR5gEZaQAAAAACAAAAAAAQZgAAAAEAACAAAABa2oSiqXFMgFinUNI3WLn3+R8nS7JYy4cJ1QOLi3G3LgAAAAAOgAAAAAIAACAAAABKzsWsEfj0UXFLUdul1Lk+zFsjrT6d9c29f152u2YUkyAAAABubtcJ0tKOTI02vlYUJfJ20DMyF+EQp3ea8vME2R07zUAAAACcSDu4g3Nsk6Iz61U+HNZdyj/ifP4ApfN2Psaxy3Nu4nmyzRzFlG06GO8Z0RAy/hvcNe5D4dLB2beJ0kpS/6q2</EncryptedPassword>
     <_PublishTargetUrl>ftp://gkgiis/JadeBlazorDashboard</_PublishTargetUrl>
-    <History>True|2024-10-31T21:25:24.4367980Z;False|2024-10-31T17:24:51.8918161-04:00;True|2024-10-31T17:16:26.6653588-04:00;True|2024-10-29T13:59:15.5984263-04:00;False|2024-09-12T09:34:10.0158520-04:00;True|2024-09-04T15:39:22.6914719-04:00;True|2024-08-28T16:48:55.3793470-04:00;True|2024-08-28T13:09:28.0109924-04:00;False|2024-08-26T14:18:08.2395991-04:00;True|2024-08-21T16:46:59.0036543-04:00;True|2024-08-21T14:12:24.2842113-04:00;False|2024-08-20T14:05:52.4737493-04:00;</History>
+    <History>True|2025-07-23T20:28:35.2585805Z;False|2025-07-23T16:26:07.9989834-04:00;False|2025-07-23T16:21:06.7058820-04:00;True|2025-07-23T15:20:03.5031514-04:00;False|2025-07-23T15:08:53.7821998-04:00;True|2024-10-31T17:25:24.4367980-04:00;False|2024-10-31T17:24:51.8918161-04:00;True|2024-10-31T17:16:26.6653588-04:00;True|2024-10-29T13:59:15.5984263-04:00;False|2024-09-12T09:34:10.0158520-04:00;True|2024-09-04T15:39:22.6914719-04:00;True|2024-08-28T16:48:55.3793470-04:00;True|2024-08-28T13:09:28.0109924-04:00;False|2024-08-26T14:18:08.2395991-04:00;True|2024-08-21T16:46:59.0036543-04:00;True|2024-08-21T14:12:24.2842113-04:00;False|2024-08-20T14:05:52.4737493-04:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
   <ItemGroup>
@@ -15,7 +15,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>07/30/2024 10:20:44</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>11/05/2024 10:38:42</publishTime>
+      <publishTime>07/23/2025 15:32:02</publishTime>
     </File>
     <File Include="cs/System.Private.ServiceModel.resources.dll">
       <publishTime>03/23/2023 01:18:18</publishTime>
@@ -165,19 +165,19 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>09/22/2023 07:07:02</publishTime>
     </File>
     <File Include="DxBlazorReport.deps.json">
-      <publishTime>11/19/2024 13:58:46</publishTime>
+      <publishTime>07/23/2025 16:28:14</publishTime>
     </File>
     <File Include="DxBlazorReport.dll">
-      <publishTime>11/19/2024 13:58:44</publishTime>
+      <publishTime>07/23/2025 16:28:10</publishTime>
     </File>
     <File Include="DxBlazorReport.exe">
-      <publishTime>11/19/2024 13:58:44</publishTime>
+      <publishTime>07/23/2025 16:28:11</publishTime>
     </File>
     <File Include="DxBlazorReport.pdb">
-      <publishTime>11/19/2024 13:58:44</publishTime>
+      <publishTime>07/23/2025 16:28:10</publishTime>
     </File>
     <File Include="DxBlazorReport.runtimeconfig.json">
-      <publishTime>11/19/2024 13:48:21</publishTime>
+      <publishTime>07/23/2025 16:25:24</publishTime>
     </File>
     <File Include="EntityFramework.dll">
       <publishTime>04/16/2020 16:38:44</publishTime>
@@ -540,7 +540,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>03/23/2023 01:18:18</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>11/19/2024 13:58:48</publishTime>
+      <publishTime>07/23/2025 16:28:15</publishTime>
     </File>
     <File Include="wwwroot/boot.js">
       <publishTime>06/03/2024 15:10:24</publishTime>
@@ -594,7 +594,7 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
       <publishTime>06/19/2024 16:28:32</publishTime>
     </File>
     <File Include="wwwroot/DxBlazorReport.styles.css">
-      <publishTime>11/19/2024 13:48:20</publishTime>
+      <publishTime>07/23/2025 16:25:21</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
       <publishTime>04/01/2024 15:26:29</publishTime>
